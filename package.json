@@ -1,0 +1,36 @@
+{
+  "name": "cat-burglar",
+  "preferGlobal": "true",
+  "version": "0.1.0",
+  "author": "Blake Israel <blake.israel@gatech.edu>",
+  "description": "A replacement for CAT(1) that removes marked sections of files/content.",
+  "bin": {
+    "cat-burglar": "./bin/cat-burglar"
+  },
+  "scripts": {
+    "start": ""
+  },
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bisrael/cat-burglar"
+  },
+  "keywords": [
+    "cli",
+    "cat",
+    "burglar",
+    "concat",
+    "concatenate",
+    "files"
+  ],
+  "dependencies": {
+    "optimist": "*",
+    "underscore": "1.3.3"
+  },
+  "devDependencies": {
+  },
+  "license":"MIT",
+  "engine": {
+    "node": ">=0.6.14"
+  }
+}
