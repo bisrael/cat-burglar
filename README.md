@@ -41,8 +41,10 @@ Goal: be a full replacement for CAT(1) (see http://unixhelp.ed.ac.uk/CGI/man-cgi
 Stuff I want it to do sooner, rather than later:
 
 - accept stdin
-  1 without any FILES
-  1 with `-` in a list of FILES
+
+    1 without any FILES
+    1 with `-` in a list of FILES
+
 - `-n, --number`: number output lines
 - `-s, --squeeze-blank`: compress consecutive blank lines to just one
 
